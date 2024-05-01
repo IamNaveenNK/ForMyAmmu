@@ -5,10 +5,16 @@
   box-sizing: border-box;
   font-family: "poppins";
 }
+body{
+  display:none;
+}
 ::-webkit-scrollbar{
   display: none;
 }
 @media(max-width:500px){
+  body{
+    display:block;
+  }
 .container {
   width: 100%;
   height: 100vh;
